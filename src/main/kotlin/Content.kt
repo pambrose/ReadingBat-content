@@ -18,6 +18,10 @@ val content =
         challenge("boolean1") {
           description = "Descriptions support **markdown**"
           returnType = BooleanType
+
+        challenge("greater_than1") {
+          description = "Descriptions support **markdown**"
+          returnType = BooleanType        
         }
       }
 
