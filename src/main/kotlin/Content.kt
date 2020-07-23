@@ -30,8 +30,8 @@ val content =
 
     java {
 
-      group("Group 1") {
-        packageName = "group1"
+      group("Group A") {
+        packageName = "group a"
         description = "A description"
 
         challenge("JoinEnds") {
