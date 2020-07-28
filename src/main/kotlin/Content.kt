@@ -12,17 +12,15 @@ val content =
     python {
 
       group("Group 1") {
-        packageName = "group1"
-        description = "This is a description of Group 1"
+        packageName = "Booleans"
+        description = "Basic boolean expressions"
 
         challenge("boolean1") {
           description = "Descriptions support **markdown**"
           returnType = BooleanType
         }
-        challenge("greater_than1") {
-          description = "Descriptions support **markdown**"
-          returnType = BooleanType        
-        }
+        
+        includeFilesWithType = "greater_than*.py" returns BooleanType
       }
 
       group("Group 2") {
