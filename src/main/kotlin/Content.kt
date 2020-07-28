@@ -31,11 +31,11 @@ val content =
         description = "A description"
         includeFilesWithType = "slice*.py" returns StringType
       }
-     
+   
       group("Variable Types") {
         packageName = "variable_type"
         description = "Identify basic variable types."
-        includeFilesWithType = "variable_type*.py" returns IntType
+        includeFilesWithType = "variable_type*.py" returns BooleanType
       }
     }
 
