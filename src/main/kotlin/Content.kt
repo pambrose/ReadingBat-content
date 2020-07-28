@@ -12,7 +12,7 @@ val content =
     python {
 
       group("Booleans") {
-        packageName = "boolean_expressions"
+        packageName = "group1"
         description = "Basic boolean expressions"
 
         challenge("boolean1") {
