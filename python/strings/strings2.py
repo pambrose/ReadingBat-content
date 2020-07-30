@@ -1,3 +1,5 @@
+# @desc Converting string cases
+
 def name(a):
     f = a.upper()
     return f
