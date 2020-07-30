@@ -12,7 +12,7 @@ val content =
     python {
 
       group("Booleans") {
-        packageName = "group1"
+        packageName = "boolean"
         description = "Basic boolean expressions"
 
         challenge("boolean1") {
@@ -26,16 +26,16 @@ val content =
         includeFilesWithType = "greater_than*.py" returns BooleanType
       }
 
-      group("Group 2") {
-        packageName = "group2"
-        description = "A description"
+      group("Brab Bag") {
+        packageName = "grab_bag"
+        description = "Miscellaneous practice"
         includeFilesWithType = "slice*.py" returns StringType
       }
    
       group("Variable Types") {
         packageName = "variable_type"
         description = "Identify basic variable types."
-        includeFilesWithType = "variable_type*.py" returns IntType
+        includeFilesWithType = "variable_type*.py" returns StringType
       }
     }
 
