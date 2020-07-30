@@ -10,11 +10,11 @@ def case(name):
 
 
 def main():
-    print(name('Anna'))
-    print(name('MIGUEL'))
-    print(name('FRed'))
-    print(name('Mr. Rodgers'))
-    print(name('oliVia'))
+    print(case('Anna'))
+    print(case('MIGUEL'))
+    print(case('FRed'))
+    print(case('Mr. Rodgers'))
+    print(case('oliVia'))
 
 if __name__ == '__main__':
     main()
