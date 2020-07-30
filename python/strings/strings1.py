@@ -1,3 +1,5 @@
+# @desc Converting string cases
+
 def name(a):
     f = a.lower()
     return f
