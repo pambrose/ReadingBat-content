@@ -26,7 +26,13 @@ val content =
         includeFilesWithType = "greater_than*.py" returns BooleanType
       }
 
-      group("Brab Bag") {
+      group("Strings") {
+          packageName = "strings"
+          description = "Practicing string operations"
+          includeFilesWithType = "strings*.py" returns StringType
+      }
+
+      group("Grab Bag") {
         packageName = "grab_bag"
         description = "Miscellaneous practice"
         includeFilesWithType = "slice*.py" returns StringType
