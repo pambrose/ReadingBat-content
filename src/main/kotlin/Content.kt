@@ -1,5 +1,7 @@
 import com.github.pambrose.common.util.FileSystemSource
 import com.github.pambrose.common.util.GitHubRepo
+import com.github.pambrose.common.util.OwnerType
+import com.github.pambrose.common.util.OwnerType.User
 import com.github.readingbat.dsl.ReturnType.BooleanType
 import com.github.readingbat.dsl.ReturnType.StringType
 import com.github.readingbat.dsl.isProduction
@@ -7,7 +9,7 @@ import com.github.readingbat.dsl.readingBatContent
 
 val content =
   readingBatContent {
-    repo = if (isProduction()) GitHubRepo("maleich", "ReadingBat-content") else FileSystemSource("./")
+    repo = if (isProduction()) GitHubRepo(User, "maleich", "ReadingBat-content") else FileSystemSource("./")
 
     python {
 
